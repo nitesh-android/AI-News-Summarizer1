@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_about"
+        android:title="About Developer"/>
+
+    <item
+        android:id="@+id/menu_share"
+        android:title="Share App"/>
+
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Logout"/>
+    <item
+        android:id="@+id/menu_fake"
+        android:title="Fake News Detector"/>
+    <item
+        android:id="@+id/menu_ai"
+        android:title="AI Chat"/>
+
+</menu>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FB">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/raja"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:text="Nitesh Kumar"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Android Developer"
+            android:textSize="18sp"
+            android:textColor="#666"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Vaishali, Bihar"
+            android:textSize="16sp"
+            android:textColor="#666"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Developer: Nitesh Kumar
+
+B.Tech Computer Science Student
+Android  AI Enthusiast
+
+This app was built as an AI-powered news platform to help users read, analyze, and understand news in a smarter way.
+
+Features include AI News Assistant, Fake News Detector, Breaking News Alerts, and Smart News Categories."
+            android:textSize="15sp"
+            android:textColor="#333"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

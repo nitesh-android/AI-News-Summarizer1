@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FB">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/detailImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/detailTitle"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/detailDescription"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="#444"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- AI Summary Button -->
+
+        <Button
+            android:id="@+id/btnSummarize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Summarize with AI"
+            android:layout_marginTop="20dp"/>
+
+        <!-- AI Summary Result -->
+
+        <TextView
+            android:id="@+id/aiSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AI summary will appear here..."
+            android:textSize="16sp"
+            android:textColor="#222"
+            android:layout_marginTop="15dp"/>
+        <Button
+            android:id="@+id/btnSpeak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listen Summary"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

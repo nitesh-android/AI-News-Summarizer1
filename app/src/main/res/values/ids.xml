@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnSummarize" type="id" />
+    <item name="aiSummary" type="id" />
+    <item name="menu_logout" type="id" />
+</resources>
